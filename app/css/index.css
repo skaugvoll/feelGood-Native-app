@@ -1,0 +1,38 @@
+body{
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+}
+
+.container {
+  -webkit-app-region: drag;
+  background-image: url("../images/feelGoodDisplay.png");
+  background-repeat: no-repeat;
+  width: 625px;
+  height: 365px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: absolute;;
+
+}
+
+.presenter {
+  position: relative;
+  /*border: 1px solid green; */
+  height: 100px;
+  width: 550px;
+  top: 130px;
+  left: 30px;
+  text-align: center;
+  line-height: 90px;
+
+}
+
+h1 {
+  /*top: 30px;   on top of center-circle */
+  font-family: SF Burlington Script, Ladybug Love Demo , Arial;
+  font-size: 72px;
+  letter-spacing: 2px;;
+  position: relative;
+  top: -50px;
+
+}

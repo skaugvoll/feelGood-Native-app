@@ -1,0 +1,15 @@
+{
+  "name": "GoodFeelTray",
+  "version": "0.1.0",
+  "description": "A minimal electron tray application, that displays a feel good massage",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron-plugins": "0.0.4",
+    "electron-updater": "^0.3.0"
+  },
+  "registry": "http://localhost:4873",
+  "author": "Sigve Skaugvoll"
+}
